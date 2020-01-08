@@ -1,0 +1,40 @@
+.icon-login{
+    height: 70%;
+    width: auto;
+    margin-top: 12%;
+    margin-left: 13%;
+    z-index: 2;
+}
+
+body {
+    overflow: hidden;
+}
+
+.log-form {
+    display: block;
+    position: absolute;
+    height: 82%;
+    width: 31%;
+    top: 0;
+    right: 7%;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 1px 5px 10.5px grey;
+    background-color: #15d0be;
+}
+
+.myFormHead {
+    color: whitesmoke;
+    position: inherit;
+    left: 35%;
+    z-index: 1;
+    flex-wrap: wrap;
+    letter-spacing: 3px;
+    margin-top: 2em;
+    margin-bottom: 1em;
+    display: block;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}

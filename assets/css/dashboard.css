@@ -1,0 +1,325 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    /* overflow-y: hidden; */
+}
+
+*{
+    transition: 0.9s;
+}
+
+.content1{
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/inventory.png);
+    -webkit-background-size: 91% 100%;
+}
+
+
+.span1-c1{
+    letter-spacing: 5;
+}
+
+.span2-c1{
+    letter-spacing: 0.5; 
+    font-size: smaller;
+}
+
+nav{
+    position: absolute;
+    width: 100%;
+    height: 10%;
+    /* background-color: #eeeeee; */
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li{
+    float: left;
+    padding: 0px 10px;
+    position: relative;
+}
+
+li a{
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 25px 10px;
+    text-decoration: none;
+}
+
+li a:hover{
+    color: orange;
+}
+
+.login{
+    position: relative;
+    left: 65%;
+}
+
+.img1{
+    position: relative;
+    right: 18%;
+    bottom: 10px;
+    width: 155px;
+    height: 95px;
+}
+
+/* .h1-c1{
+    font-size: 150px;
+    font-weight: bolder;
+    color: white;
+    position: absolute;
+    left: 31.5%;
+    top: 13%;
+}
+
+hr{
+    width: 36%;
+    position: absolute;
+    top: 10%;
+    left: 32%;
+    top: 52%;
+}
+
+p{
+    position: absolute;
+    font-size: 45px;
+    font-weight: lighter;
+    color: white;
+    left: 32.5%;
+    top: 47%;
+} */
+
+.content2{
+    width: 100%;
+    height: 100%;
+}
+
+.sampul{
+    width: 80%;
+    height: 80%;
+    background-color: orange;
+}
+
+.h1-c2{
+    font-size: 50px;
+    font-weight: 300;
+    position: absolute;
+    left: 10%;
+    top: 120%;
+}
+
+.sampul>span{
+    position: relative;
+    left: 13%;
+    top: 45%;
+    font-size: 22px;
+}
+
+.garis{
+    position: absolute;
+    left: 5%;
+    top: 120%;
+    width: 0px;
+    height: 230px;
+    border: 2px solid black;
+}
+
+.img2{
+    width: 17%;
+    height: 40%;
+    position: relative;
+    left: 71%;
+    margin-top: -30%;
+}
+
+.content3{
+    width: 100%;
+    height: 132%;
+}
+
+.img3{
+    width: 35%;
+    height: 70%;
+    position: absolute;
+    left: 7%;
+    top: 205%;
+}
+
+.sampul2{
+    width: 50%;
+    height: 27%;
+    position: relative;
+    left: 50%;
+    top: 7rem;
+}
+
+.sampul2>span{
+    font-size: 30px;
+}
+
+.sampul2-1{
+    width: 100%;
+    height: 230px;
+    position: absolute;
+    top: 120rem;
+}
+
+.card {
+    transition: 0.3s;
+    width: 21.95%;
+    border-radius: 5px;
+    /* border: 1px solid black; */
+    margin: 1rem;
+    height: 13rem;
+    background: #f3f1ef;
+    float: left;
+    position: relative;
+    left: 25px;
+    top: 5rem;
+    border-radius: 0 0 5% 5%;
+}
+
+.card:hover {
+    box-shadow: 0 4px 6px 0 hsla(0, 0%, 0%, .2);
+}
+
+.contentCard {
+    width: 18.5rem;
+    height: 4rem;
+    position: relative;
+    background-color: orange;
+    top: 9rem;
+    border-radius: 0% 0% 5% 5%;
+}
+
+.tempat-img-barang{
+    /* background-color: burlywood; */
+    width: 15rem;
+    height: 8rem;
+    position: absolute;
+    top: -9rem;
+    left: 2rem;
+}
+
+.img-barang{
+    left: 3.5rem;
+    position: relative;
+}
+
+.contentCard h4 {
+    font-size: 20px;
+    font-weight: bold;
+    position: relative;
+    top: 10px;
+    left: 10px;
+    color: black;
+}
+
+.contentCard span{
+    position: relative;
+    top: -15px;
+    left: 10px;
+    color: black;
+}
+
+.h1-barang{
+    position: relative;
+    padding-left: 5rem;
+    top: 5rem;
+}
+
+/* @media only screen and (max-width: 500px) {
+    .h1-c1{
+        font-size: 50px;
+        left: 95px;
+        top: 30%;
+    }
+
+    hr{
+        top: 45%;
+        width: 50%;
+        left: 25%;
+    } 
+    
+    .span1-c1{
+        font-size: 10px;
+    }
+
+    .span2-c1{
+        font-size: 10px;
+        letter-spacing: 1.9;
+    }
+
+    p{
+        left: 26.5%;
+        top: 43%;
+    }
+
+    .login{
+        bottom: 6.8rem;
+        left: 65%;
+    }
+
+    .img1{
+        opacity: 0;
+    }
+} */
+
+/* @media only screen and (min-width: 1500px) and (max-width: 1700px) {
+    .h1-c1{
+        left: 33%;
+        top: 15%;
+        font-size: 160px;
+    }
+
+    .span1-c1{
+        letter-spacing: 10.5;
+        position: relative;
+        top: 5px;
+    }
+
+    .span2-c1{
+        letter-spacing: 3.8;
+    }
+
+    li{
+        top: 10px;
+    }
+
+    .sampul2-1{
+        top: 136.6rem;
+    }
+
+    .sampul2{
+        top: 10rem;
+        height: 27%;
+    }
+
+    hr{
+        top: 52%;
+        width: 39%;
+    }
+
+    .card{
+        top: -4rem;
+        width: 18.5rem;
+        margin: 2.3rem;
+    }
+
+    .h1-barang{
+        top: -2rem;
+    }
+
+    nav{
+        height: 12%;
+    }
+
+} */
