@@ -1,1 +1,1 @@
-# inventory-school
+aplikasi peminjaman barang dengan sistem cart
